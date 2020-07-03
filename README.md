@@ -9,10 +9,11 @@
 
 ## What are the the things enabled in this config
 <b> Devices </b>
-1. Synaptics touchpad/Libinput, keyboard,mouse (Input devices)
+1. Synaptics touchpad/Libinput, keyboard,mouse, Webcam (Input devices)
 2. iwlwifi, rt8169 (Network Drivers)
 3. i915 and nouveau (Display Drivers)
-4. USB, DVD and Realtek card reader Drivers 
+4. USB, DVD and Realtek card reader Drivers
+5. Audio Drivers
 
 <b> File systems </b> <br>
 ext4, ext3, f2fs, ntfs, fat, exfat, udf, iso, loop, mmc, lvm
