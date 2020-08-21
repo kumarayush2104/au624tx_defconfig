@@ -3,8 +3,8 @@
 <b> How to use :-</b>
 
 1. Navigate to kernel source home folder ( Where you see folders like arch, blocks,certs ) <code> cd /path/to/kernel/folder</code> <br>
-2. Clear the kernel sources <code>make mrproper</code>
-3. Clone the repo <code>git clone git://github.com/kumarayush2104/au624tx_defconfig ~/defconfig;mv ~/defconfig/ .config;rm -rf ~/defconfig</code>
+2. Clean the kernel sources <code>make mrproper</code>
+3. Clone the repo <code>git clone git://github.com/kumarayush2104/au624tx_defconfig a;cp a/au624tx_defconfig .config</code>
 4. Start the kernel build <code>make -j5</code> and install it <code>sudo make install;sudo make modules_install</code> <br> 
 
 ## What are the the things enabled in this config
